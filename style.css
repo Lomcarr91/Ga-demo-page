@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    background: #fff;
+    font-size: 16px;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.4em;
+    max-width: 40%;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.button {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 90px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.product-demo {
+    transform: translate(300px, -140px) scale(0.8);
+    width: 604px;
+    height: 806px;
+    background: url(./Sprite-sheet-briller.png);
+}
