@@ -17,6 +17,7 @@ body {
 }
 
 .wrapper {
+    max-height: 780px;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
@@ -44,6 +45,6 @@ p {
 .product-demo {
     transform: translate(300px, -140px) scale(0.8);
     width: 604px;
-    height: 806px;
+    height: 750px;
     background: url(./Sprite-sheet-briller.png);
 }
